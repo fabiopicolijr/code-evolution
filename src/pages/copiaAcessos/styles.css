@@ -1,0 +1,105 @@
+
+.card-radio{
+    background-color: #fff;
+    min-height: 6.88rem;
+    cursor: pointer;
+
+    border: solid 1px #e0e0e0;
+    border-radius: 5px;
+}
+
+    .card-radio:hover, .card-radio.is-clicked{
+        background-color: rgba(21, 101, 153, 0.1);
+        border-radius: 5px;
+    }
+
+    .card-radio.is-clicked{
+        border: solid 1px #156599;
+    }
+
+    .card-radio .card-body{
+        padding: 0.65rem;
+        min-height: 7rem;
+    }
+
+        .card-radio .card-body h4, .card-radio .card-body p{
+            text-align: center;
+        }
+
+        .card-radio .card-body h4{
+            color: #333;
+        }
+
+        .card-radio .card-body h4.is-clicked{
+            color: #156599;
+        }
+
+        .card-radio .card-body p{
+            color: #999;
+            font-size: 0.75rem;
+        }
+
+/* Tab Usuario */
+#cadastro_terceiro label{
+    font-size: 0.625rem;
+}
+
+/* Forms */
+.form-control.form-control-sm{
+    height: 2rem;
+}
+
+input.form-control-sm:read-only{
+    background-color: #fff;
+    color: #555;
+    border: none;
+    padding: 0.1rem;
+}
+
+:disabled.form-control, [readonly].form-control {
+    background-color: #fff !important;
+}
+
+.form-control-sm-2char{
+    width: 2.563rem;
+    padding-left: 0.688rem;
+}
+
+.card-info-pessoa span{
+    font-size: 0.625rem;
+}
+
+.card-info-pessoa input{
+    font-size: 0.75rem;
+}
+
+/* Tab Modelo */
+.card-header{
+    background-color: #f7f7f7;
+}
+
+.table-usuario-modelo td{
+    border: none;
+    font-size: 0.75rem;
+}
+    .table-usuario-modelo thead td{
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: bold;
+    }
+
+    .table-usuario-modelo tbody td{
+        cursor: pointer;
+    }
+
+    .table-usuario-modelo tbody td:first-child{
+        color: #156599;
+    }
+
+    .table-usuario-modelo tbody tr:hover td,  .table-usuario-modelo tbody tr.is-selected{
+        background: #e7eff4;
+    }
+
+.input-group-text{
+    font-size: 0.75rem;
+}
+    
