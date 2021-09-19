@@ -5,16 +5,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
-
-        <link rel="stylesheet" href="../../assets/css/dcc-default.css">
-        <link rel="stylesheet" href="../../assets/css/dcc-modals.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">        
         
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="../../assets/js/popper.js"></script>
         <script type="text/javascript" src="../../assets/js/jquery/jquery.mask.js"></script>        
         <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="../../assets/css/dcc-default.css">
+        <link rel="stylesheet" href="../../assets/css/dcc-modals.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
@@ -23,9 +23,8 @@
 
                 <header>
                     <nav aria-label="breadcrumb border">
-                        <ol class="breadcrumb">
-                            <script language="SpeedScript">{linkfor.i &WCONTAction = BREADCRUMB_ADMINISTRACAO_ACESSOS &TABLE-1 = ssousu}</script>
-                            <li class="breadcrumb-item active mb-6"><a href="`cha-pad-url`">< Administração de Acessos</a></li>
+                        <ol class="breadcrumb">                            
+                            <li class="breadcrumb-item active mb-6"><a href="#">< Administração de Acessos</a></li>
                         </ol>
                     </nav>
 
@@ -138,7 +137,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <hr class="hr-terc-selec">
+                                <hr class="mr-0 mx-4">
                                 <div class="card-body px-3 py-2 d-flex align-items-center">
                                      <div class="col-11 d-flex p-0 align-items-center">
                                          <div class="col-2 px-0">
@@ -474,18 +473,15 @@
                                 </svg>
                                 <span class="ml-2 align-middle">O usuário receberá no seu e-mail (<span id="email_usuario_acesso_liberado"></span>) as informações do novo acesso.</span>
                             </div>
-                        </div>
-
-                        <script language="SpeedScript">{linkfor.i &WCONTAction = VOLTAR_ADMINISTRACAO_ACESSOS &TABLE-1 = ssousu}</script>
+                        </div>                        
                         <div class="col text-center mt-4">
-                            <button type="button" class="p2 btn btn-sm btn-outline-primary d-none" id="btn_voltar_administracao_acessos" value="`cha-pad-url`">< Voltar à Administração de Acessos</button>
+                            <button type="button" class="p2 btn btn-sm btn-outline-primary d-none" id="btn_voltar_administracao_acessos" value="#">< Voltar à Administração de Acessos</button>
                         </div>
                     </div>
 
-                    <footer class="d-flex mt-4 mb-5 align-items-center">
-                        <script language="SpeedScript">{linkfor.i &WCONTAction = PROGCAN &TABLE-1 = ssousu}</script>
+                    <footer class="d-flex mt-4 mb-5 align-items-center">                        
                         <div class="flex-grow-1">
-                            <button type="button" class="p2 btn btn-link btn-sm shadow-none" id="btn_cancelar" value="`cha-pad-url`">x Cancelar</button>
+                            <button type="button" class="p2 btn btn-link btn-sm shadow-none" id="btn_cancelar" value="#">x Cancelar</button>
                         </div>
 
                         <div class="pr-0 mr-2">
